@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe_with_AI.iml" filepath="$PROJECT_DIR$/.idea/modules/Tic-Tac-Toe_with_AI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N?/Tic-Tac-Toe_with_AI.Problems-Does_an_array_contain_N_.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Tic-Tac-Toe_with_AI.Problems-Individual_taxes.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tic-Tac-Toe_with_AI.util.test.iml" />
+    </modules>
+  </component>
+</project>

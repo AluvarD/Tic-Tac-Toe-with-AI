@@ -15,7 +15,7 @@ public class Main {
         }
         int maxIndex = 0;
         for (int i = 1; i < n; i++) {
-            if (taxArray[maxIndex] < taxArray[i]) {
+            if ((double) companyArray[maxIndex] * (double) taxArray[maxIndex] / 100 < (double) companyArray[i] * (double) taxArray[i] / 100) {
                 maxIndex = i;
             }
         }

@@ -1,6 +1,7 @@
 package tictactoe;
 
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -10,8 +11,9 @@ public class Main {
         char[][] table = new char[3][3];
         String startLine;
 
-        System.out.print("Enter the cells: > ");
-        startLine = scanner.nextLine();
+        //System.out.print("Enter the cells: > ");
+        //startLine = scanner.nextLine();
+        startLine = "_________";
 
         //System.out.println("Start line is: " + startLine);
         tableInit(table, startLine);
@@ -19,8 +21,14 @@ public class Main {
 
         int move = 0;
         while (true) {
-            System.out.print("Enter the coordinates: > ");
-            String input = scanner.nextLine();
+            move = checkTurn(table);
+            String input = new String();
+            if (move == 0) {
+                System.out.print("Enter the coordinates: > ");
+                input = scanner.nextLine();
+            } else if (move == 1) {
+                input = generateCoordinatesAi(table);
+            }
             String[] convert = input.split(" ");
             //String x = scanner.next(); // test 4, need use scanner.nextLine()
             //String y = scanner.next();
@@ -30,7 +38,6 @@ public class Main {
             }
             String x = inputArray[0];
             String y = inputArray[1];
-            move = checkTurn(table);
             if (checkCoordinates(table, x, y) == 2) {
                 System.out.println("Coordinates should be from 1 to 3!");
             } else if (checkCoordinates(table, x, y) == 1) {
@@ -40,7 +47,6 @@ public class Main {
             } else {
                 changeInTable(table, Integer.parseInt(x), Integer.parseInt(y), move);
                 printTable(table);
-                move++;
             }
             int result = checkGameResult(table);
             if (result == 1) {
@@ -52,10 +58,10 @@ public class Main {
             } else if (result == 3) {
                 System.out.println("Draw");
                 break;
-            } else if (move > 0) {
+            } /*else if (move > 0) {
                 System.out.println("Game not finished");
                 break;
-            }
+            }*/
         }
     }
 
@@ -127,6 +133,38 @@ public class Main {
         } else {
             table[x - 1][y - 1] = 'O';
         }
+    }
+
+    /*public static void changeInTableAi (char[][] table, int move) {
+        int x;
+        int y;
+        Random random = new Random();
+        do {
+            x = random.nextInt(3);
+            y = random.nextInt(3);
+        } while (checkCoordinates(table, String.valueOf(x), String.valueOf(y)) != 0);
+        if (move % 2 == 0) {
+            table[x][y] = 'X';
+        } else {
+            table[x][y] = 'O';
+        }
+    }*/
+    
+    public static String generateCoordinatesAi (char[][] table) {
+        int x;
+        int y;
+        Random random = new Random();
+        StringBuilder coordinateArray = new StringBuilder();
+        do {
+            x = random.nextInt(2 + 1);
+            y = random.nextInt(2 + 1);
+            x += 1;
+            y += 1;
+            //System.out.println("x: " + x + " y: " + y);
+        } while (checkCoordinates(table, String.valueOf(x), String.valueOf(y)) != 0);
+        //System.out.println("Final x: " + x + " Final y: " + y);
+        coordinateArray.append(x).append(" ").append(y);
+        return coordinateArray.toString();
     }
 
     public static int checkCoordinates (char[][] table, String x, String y) {

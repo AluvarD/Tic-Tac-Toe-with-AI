@@ -7,37 +7,71 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // write your code here
+        String mode;
+        while (true) {
+            mode = mode();
+            if (mode.equals("exit")) {
+                break;
+            }
+            game(mode);
+        }
+    }
+
+    public static String mode () {
         Scanner scanner = new Scanner(System.in);
+        String input;
+        String mode = "exit";
+        boolean checkInput = false;
+
+        do {
+            System.out.print("Input command: > ");
+            input = scanner.nextLine();
+            switch (input) {
+                case "start easy easy":
+                    checkInput = true;
+                    mode = "aiVAiEasy";
+                    break;
+                case "start easy user":
+                    checkInput = true;
+                    mode = "aiVUserEasy";
+                    break;
+                case "start user user":
+                    checkInput = true;
+                    mode = "pVp";
+                    break;
+                case "exit":
+                    checkInput = true;
+                    break;
+                default:
+                    System.out.println("Bad parameters!");
+                    break;
+            }
+        } while (!checkInput);
+        return mode;
+    }
+
+    public static void game (String mode) {
         char[][] table = new char[3][3];
-        String startLine;
+        String startLine = "_________";
 
-        //System.out.print("Enter the cells: > ");
-        //startLine = scanner.nextLine();
-        startLine = "_________";
-
-        //System.out.println("Start line is: " + startLine);
         tableInit(table, startLine);
         printTable(table);
 
         int move = 0;
         while (true) {
             move = checkTurn(table);
-            String input = new String();
-            if (move == 0) {
-                System.out.print("Enter the coordinates: > ");
-                input = scanner.nextLine();
-            } else if (move == 1) {
-                input = generateCoordinatesAi(table);
-            }
+            String input = gameProcess(mode, move, table);
+
             String[] convert = input.split(" ");
-            //String x = scanner.next(); // test 4, need use scanner.nextLine()
-            //String y = scanner.next();
             String[] inputArray = {"0", "0"};
+
             for (int i = 0; i < convert.length; i++) {
                 inputArray[i] = convert[i];
             }
+
             String x = inputArray[0];
             String y = inputArray[1];
+
             if (checkCoordinates(table, x, y) == 2) {
                 System.out.println("Coordinates should be from 1 to 3!");
             } else if (checkCoordinates(table, x, y) == 1) {
@@ -48,6 +82,7 @@ public class Main {
                 changeInTable(table, Integer.parseInt(x), Integer.parseInt(y), move);
                 printTable(table);
             }
+
             int result = checkGameResult(table);
             if (result == 1) {
                 System.out.println("X wins");
@@ -58,11 +93,43 @@ public class Main {
             } else if (result == 3) {
                 System.out.println("Draw");
                 break;
-            } /*else if (move > 0) {
-                System.out.println("Game not finished");
-                break;
-            }*/
+            }
         }
+    }
+
+    public static String gameProcess (String mode, int move, char[][] table) {
+        Scanner scanner = new Scanner(System.in);
+        String input = new String();
+        switch (mode) {
+            case "aiVUserEasy":
+                if (move == 0) {
+                    System.out.print("Enter the coordinates: > ");
+                    input = scanner.nextLine();
+                } else if (move == 1) {
+                    System.out.print("Making move level \"easy\"\n");
+                    input = generateCoordinatesAi(table);
+                }
+                break;
+            case "aiVAiEasy":
+                if (move == 0) {
+                    System.out.print("Making move level \"easy\"\n");
+                    input = generateCoordinatesAi(table);
+                } else if (move == 1) {
+                    System.out.print("Making move level \"easy\"\n");
+                    input = generateCoordinatesAi(table);
+                }
+                break;
+            case "pVp":
+                if (move == 0) {
+                    System.out.print("Enter the coordinates: > ");
+                    input = scanner.nextLine();
+                } else if (move == 1) {
+                    System.out.print("Enter the coordinates: > ");
+                    input = scanner.nextLine();
+                }
+                break;
+        }
+        return input;
     }
 
     public static int checkTurn (char[][] table) {

@@ -1,5 +1,6 @@
 [1;31m
 Start test 1[0m
+#Input command: > > start easy easy
 
 ---------
 
@@ -10,101 +11,83 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
-
-| X     |
 
 |       |
 
 |       |
 
----------
+|     X |
 
 ---------
+Making move level "easy"
 
-| X     |
+---------
 
-|   O   |
+| O     |
 
 |       |
 
----------
-Enter the coordinates: > > 1 2
+|     X |
 
 ---------
-
-| X X   |
-
-|   O   |
-
-|       |
+Making move level "easy"
 
 ---------
 
----------
+| O     |
 
-| X X O |
+|     X |
 
-|   O   |
-
-|       |
+|     X |
 
 ---------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
+Making move level "easy"
 
 ---------
 
-| X X O |
+| O     |
 
-| X O   |
+|     X |
 
-|       |
+|   O X |
+
+---------
+Making move level "easy"
 
 ---------
 
----------
+| O   X |
 
-| X X O |
+|     X |
 
-| X O   |
-
-|     O |
+|   O X |
 
 ---------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-
----------
-
-| X X O |
-
-| X O X |
-
-|     O |
-
----------
-
----------
-
-| X X O |
-
-| X O X |
-
-| O   O |
-
----------
-O wins
+X wins
 [1;31m
 Start test 2[0m
+Input command: > > exit
+[1;31m
+Start test 3[0m
+#Input command: > > start user user
 
 ---------
 
 |       |
+
+|       |
+
+|       |
+
+---------
+Enter the coordinates: > > 1 1
+
+---------
+
+| X     |
 
 |       |
 
@@ -115,95 +98,708 @@
 
 ---------
 
-|       |
+| X     |
 
-|     X |
-
-|       |
-
----------
-
----------
-
-|       |
-
-| O   X |
+|     O |
 
 |       |
 
 ---------
-Enter the coordinates: > > 3 2
+Enter the coordinates: > > 2 1
+
+---------
+
+| X     |
+
+| X   O |
+
+|       |
+
+---------
+Enter the coordinates: > > 3 3
+
+---------
+
+| X     |
+
+| X   O |
+
+|     O |
+
+---------
+Enter the coordinates: > > 3 1
+
+---------
+
+| X     |
+
+| X   O |
+
+| X   O |
+
+---------
+X wins
+[1;31m
+Start test 4[0m
+#Input command: > > start user user
 
 ---------
 
 |       |
 
-| O   X |
+|       |
 
-|   X   |
+|       |
 
 ---------
+Enter the coordinates: > > 1 1
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Enter the coordinates: > > 1 1
++This cell is occupied! Choose another one!
+Enter the coordinates: > > 1 2
+
+---------
+
+| X O   |
+
+|       |
+
+|       |
+
+---------
+[1;31m
+Start test 5[0m
+#Input command: > > start easy easy
 
 ---------
 
 |       |
 
-| O   X |
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X X   |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
 
 |   X O |
 
----------
-Enter the coordinates: > > 1 3
+| X X   |
+
+|     O |
 
 ---------
+Making move level "easy"
 
-|     X |
-
-| O   X |
+---------
 
 |   X O |
 
----------
+| X X   |
+
+|   O O |
 
 ---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| X X   |
+
+|   O O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| X X O |
+
+|   O O |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   O   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   O   |
 
 |     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+|   O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| X O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X O   |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X O O |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X O O |
+
+| X X X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+| O     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X   |
+
+| O     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X   |
+
+| O     |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X   |
 
 | O   X |
 
-| O X O |
+|     O |
 
 ---------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
-|     X |
+| X X   |
+
+| O   X |
+
+|   O O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X   |
+
+| O   X |
+
+| X O O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| O   X |
+
+| X O O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
 
 | O X X |
 
-| O X O |
+| X O O |
 
 ---------
+Draw
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| O     |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| O     |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| O     |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| O   X |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O   |
+
+| O   X |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O   |
+
+| O   X |
+
+| X X X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|     X |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+|     X |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+|     X |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+|   O X |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+| X O X |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+| X O X |
+
+| X O X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X O X |
+
+| X O X |
+
+---------
+Draw
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
 
 ---------
 
 |   O X |
 
-| O X X |
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|     X |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+|     X |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O   X |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O   X |
+
+|   X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O   X |
 
 | O X O |
 
 ---------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
 
@@ -215,6 +811,7 @@
 
 ---------
 Draw
+#Input command: > > start easy easy
 
 ---------
 
@@ -225,156 +822,7 @@
 |       |
 
 ---------
-Enter the coordinates: > > 3 1
-
----------
-
-|       |
-
-|       |
-
-| X     |
-
----------
-
----------
-
-|       |
-
-|     O |
-
-| X     |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X   O |
-
-| X     |
-
----------
-
----------
-
-|   O   |
-
-| X   O |
-
-| X     |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X O   |
-
-| X   O |
-
-| X     |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|       |
-
-|       |
-
-|     X |
-
----------
-
----------
-
-| O     |
-
-|       |
-
-|     X |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-| O     |
-
-|       |
-
-|   X X |
-
----------
-
----------
-
-| O     |
-
-|     O |
-
-|   X X |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| O     |
-
-| X   O |
-
-|   X X |
-
----------
-
----------
-
-| O O   |
-
-| X   O |
-
-|   X X |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| O O   |
-
-| X   O |
-
-| X X X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
@@ -385,74 +833,74 @@
 |       |
 
 ---------
+Making move level "easy"
 
 ---------
 
 |       |
 
-|   X O |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-|       |
-
-|   X O |
-
-| X     |
-
----------
-
----------
+|   X   |
 
 |   O   |
 
-|   X O |
-
-| X     |
+---------
+Making move level "easy"
 
 ---------
-Enter the coordinates: > > 2 1
 
----------
+|       |
+
+|   X X |
 
 |   O   |
 
-| X X O |
-
-| X     |
+---------
+Making move level "easy"
 
 ---------
 
----------
+|       |
+
+|   X X |
 
 | O O   |
 
-| X X O |
+---------
+Making move level "easy"
+
+---------
 
 | X     |
 
----------
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 3
+|   X X |
+
+| O O   |
 
 ---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+|   X X |
+
+| O O   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+|   X X |
 
 | O O X |
 
-| X X O |
-
-| X     |
-
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -463,272 +911,295 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
 
-|     X |
-
 |       |
+
+| X     |
 
 |       |
 
 ---------
+Making move level "easy"
 
 ---------
-
-|     X |
-
-|       |
 
 | O     |
 
----------
-Enter the coordinates: > > 2 2
+| X     |
+
+|       |
 
 ---------
+Making move level "easy"
 
-|     X |
-
-|   X   |
+---------
 
 | O     |
 
----------
-
----------
+| X     |
 
 |     X |
 
-|   X   |
+---------
+Making move level "easy"
+
+---------
 
 | O   O |
 
----------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-
----------
+| X     |
 
 |     X |
 
-|   X X |
+---------
+Making move level "easy"
+
+---------
 
 | O   O |
 
----------
-
----------
+| X   X |
 
 |     X |
 
-|   X X |
-
-| O O O |
-
 ---------
-O wins
+Making move level "easy"
 
 ---------
 
-|       |
+| O   O |
 
-|       |
+| X   X |
 
-|       |
-
----------
-Enter the coordinates: > > 3 2
+|   O X |
 
 ---------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|       |
-
-|     O |
-
-|   X   |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|       |
-
-|   X O |
-
-|   X   |
-
----------
-
----------
-
-|     O |
-
-|   X O |
-
-|   X   |
-
----------
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-
----------
-
-|     O |
-
-|   X O |
-
-|   X X |
-
----------
-
----------
-
-|   O O |
-
-|   X O |
-
-|   X X |
-
----------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-
----------
-
-|   O O |
-
-| X X O |
-
-|   X X |
-
----------
-
----------
-
-| O O O |
-
-| X X O |
-
-|   X X |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-|       |
-
-|       |
-
-| X     |
-
----------
-
----------
-
-|       |
-
-| O     |
-
-| X     |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-|       |
-
-| O   X |
-
-| X     |
-
----------
-
----------
-
-|       |
-
-| O   X |
-
-| X O   |
-
----------
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-
----------
-
-|       |
-
-| O   X |
-
-| X O X |
-
----------
-
----------
-
-|     O |
-
-| O   X |
-
-| X O X |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X O |
-
-| O   X |
-
-| X O X |
-
----------
+Making move level "easy"
 
 ---------
 
 | O X O |
 
+| X   X |
+
+|   O X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X   X |
+
+| O O X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X X X |
+
+| O O X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+|   X   |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+|   X O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
 | O   X |
+
+|   X O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+|   X O |
+
+|   X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+|   X O |
+
+| X X O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|   X   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| O X   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| O X   |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| O X   |
 
 | X O X |
 
 ---------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
@@ -740,6 +1211,7 @@
 
 ---------
 Draw
+#Input command: > > start easy easy
 
 ---------
 
@@ -750,468 +1222,185 @@
 |       |
 
 ---------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
 |       |
 
-|   X   |
-
 |       |
-
----------
-
----------
-
-|       |
-
-|   X O |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|   X O |
-
-|       |
-
----------
-
----------
-
-| O X   |
-
-|   X O |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-| O X   |
-
-|   X O |
 
 |     X |
 
 ---------
+Making move level "easy"
 
 ---------
-
-| O X O |
-
-|   X O |
-
-|     X |
-
----------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-
----------
-
-| O X O |
-
-| X X O |
-
-|     X |
-
----------
-
----------
-
-| O X O |
-
-| X X O |
-
-| O   X |
-
----------
-Enter the coordinates: > > 3 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-
----------
-
-| O X O |
-
-| X X O |
-
-| O X X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| X O   |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| X O X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| X O X |
 
 |       |
 
 | O     |
 
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| X O X |
-
 |     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
 
 | O     |
 
----------
+| X   X |
 
 ---------
-
-| X O X |
-
-|     X |
-
-| O O   |
+Making move level "easy"
 
 ---------
-Enter the coordinates: > > 3 3
-
----------
-
-| X O X |
-
-|     X |
-
-| O O X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X     |
-
-|       |
-
----------
-
----------
-
-|       |
-
-| X     |
-
-|     O |
-
----------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-| X     |
-
-|     O |
-
----------
-
----------
-
-| X O   |
-
-| X     |
-
-|     O |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| X O X |
-
-| X     |
-
-|     O |
-
----------
-
----------
-
-| X O X |
-
-| X     |
-
-|   O O |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| X O X |
-
-| X     |
-
-| X O O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|       |
 
 |   O   |
 
----------
-Enter the coordinates: > > 2 2
+| O     |
+
+| X   X |
 
 ---------
+Making move level "easy"
 
-|     X |
-
-|   X   |
+---------
 
 |   O   |
 
----------
+| O X   |
+
+| X   X |
 
 ---------
+Making move level "easy"
 
-| O   X |
-
-|   X   |
+---------
 
 |   O   |
-
----------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-
----------
-
-| O   X |
-
-| X X   |
-
-|   O   |
-
----------
-
----------
-
-| O   X |
-
-| X X   |
-
-| O O   |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| O   X |
-
-| X X X |
-
-| O O   |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|   X   |
-
-|       |
-
-|   O   |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-|   X   |
-
-|       |
-
-| X O   |
-
----------
-
----------
-
-|   X   |
-
-|   O   |
-
-| X O   |
-
----------
-Enter the coordinates: > > 3 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-
----------
-
-|   X   |
-
-|   O X |
-
-| X O   |
-
----------
-
----------
-
-|   X   |
-
-|   O X |
-
-| X O O |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|   X   |
-
-| X O X |
-
-| X O O |
-
----------
-
----------
 
 | O X   |
 
 | X O X |
 
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O X   |
+
+| X O X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X     |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X     |
+
+|   X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+|   X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+| X X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
 | X O O |
+
+| X X O |
 
 ---------
 O wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -1222,7 +1411,7 @@
 |       |
 
 ---------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
@@ -1233,155 +1422,74 @@
 |       |
 
 ---------
+Making move level "easy"
 
 ---------
-
-|       |
-
-| O X   |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-| O X   |
-
-|       |
-
----------
-
----------
-
-| X     |
-
-| O X   |
 
 |   O   |
 
----------
-Enter the coordinates: > > 1 2
+|   X   |
+
+|       |
 
 ---------
+Making move level "easy"
+
+---------
+
+|   O   |
 
 | X X   |
 
-| O X   |
+|       |
+
+---------
+Making move level "easy"
+
+---------
 
 |   O   |
-
----------
-
----------
 
 | X X   |
 
-| O X   |
-
-| O O   |
+|   O   |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
 
-| X X X |
+| X O   |
 
-| O X   |
+| X X   |
 
-| O O   |
-
----------
-X wins
+|   O   |
 
 ---------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
+Making move level "easy"
 
 ---------
 
-|       |
+| X O O |
 
-|       |
+| X X   |
 
-|     X |
+|   O   |
+
+---------
+Making move level "easy"
 
 ---------
 
----------
+| X O O |
 
-|       |
+| X X   |
 
-|       |
-
-| O   X |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|       |
-
-|   X   |
-
-| O   X |
-
----------
-
----------
-
-| O     |
-
-|   X   |
-
-| O   X |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| O     |
-
-|   X X |
-
-| O   X |
-
----------
-
----------
-
-| O     |
-
-|   X X |
-
-| O O X |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| O     |
-
-| X X X |
-
-| O O X |
+|   O X |
 
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -1392,129 +1500,18 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
-
-| X     |
 
 |       |
 
 |       |
-
----------
-
----------
-
-| X   O |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
-
----------
-
-| X   O |
 
 |   X   |
 
-|       |
-
 ---------
-
----------
-
-| X   O |
-
-|   X   |
-
-|     O |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| X X O |
-
-|   X   |
-
-|     O |
-
----------
-
----------
-
-| X X O |
-
-|   X   |
-
-| O   O |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| X X O |
-
-|   X X |
-
-| O   O |
-
----------
-
----------
-
-| X X O |
-
-| O X X |
-
-| O   O |
-
----------
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-
----------
-
-| X X O |
-
-| O X X |
-
-| O X O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-|       |
-
-|       |
-
-| X     |
-
----------
+Making move level "easy"
 
 ---------
 
@@ -1522,262 +1519,66 @@
 
 |   O   |
 
-| X     |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
 |   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
 
 |   O   |
 
-| X     |
+| X X   |
+
+---------
+Making move level "easy"
 
 ---------
 
+|     O |
+
+|   O   |
+
+| X X   |
+
+---------
+Making move level "easy"
+
 ---------
 
-|   X   |
+| X   O |
+
+|   O   |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
 
 |   O O |
 
-| X     |
+| X X   |
 
 ---------
-Enter the coordinates: > > 2 1
+Making move level "easy"
 
 ---------
-
-|   X   |
-
-| X O O |
-
-| X     |
-
----------
-
----------
-
-|   X   |
-
-| X O O |
-
-| X O   |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|   X X |
-
-| X O O |
-
-| X O   |
-
----------
-
----------
-
-| O X X |
-
-| X O O |
-
-| X O   |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-| O X X |
-
-| X O O |
-
-| X O X |
-
----------
-Draw
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|       |
-
-|       |
-
-|   X O |
-
----------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X     |
-
-|   X O |
-
----------
-
----------
-
-|       |
 
 | X   O |
 
-|   X O |
+| X O O |
 
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-| X   O |
-
-|   X O |
-
----------
-
----------
-
-| X O   |
-
-| X   O |
-
-|   X O |
-
----------
-Enter the coordinates: > > 1 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 3
-
----------
-
-| X O X |
-
-| X   O |
-
-|   X O |
-
----------
-
----------
-
-| X O X |
-
-| X   O |
-
-| O X O |
-
----------
-Enter the coordinates: > > 3 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
-
----------
-
-| X O X |
-
-| X X O |
-
-| O X O |
-
----------
-Draw
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|     O |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X   X |
-
-|     O |
-
-|       |
-
----------
-
----------
-
-| X   X |
-
-|     O |
-
-| O     |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| X X X |
-
-|     O |
-
-| O     |
+| X X   |
 
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -1788,7 +1589,608 @@
 |       |
 
 ---------
-Enter the coordinates: > > 2 1
+Making move level "easy"
+
+---------
+
+|     X |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|       |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X   |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X   |
+
+| O O   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X X |
+
+| O O   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X X |
+
+| O O O |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   O   |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+|   O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| X O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O   |
+
+| X O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O X |
+
+| X O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O X |
+
+| X O X |
+
+| O X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O X |
+
+| X O X |
+
+| O X X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   O   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+| X O   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X O   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X O O |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X O O |
+
+| X   X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X   O |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+| X   O |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+| X O O |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X   |
+
+| X O O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| O     |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| O     |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| O     |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| O     |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| O     |
+
+| O X X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|     O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|     O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+|     O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+| X   O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+| X O O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+| X O O |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X O O |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X O O |
+
+| X X X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| O     |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O     |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O O X |
+
+|     X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
 
 ---------
 
@@ -1799,54 +2201,77 @@
 |       |
 
 ---------
+Making move level "easy"
 
 ---------
 
-|       |
+|   O   |
 
 | X     |
 
-| O     |
+|       |
 
 ---------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
+
+|   O   |
+
+| X X   |
 
 |       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
 
 | X X   |
 
 | O     |
 
 ---------
+Making move level "easy"
 
 ---------
 
-|       |
+| X O   |
+
+| X X   |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
 
 | X X   |
 
 | O   O |
 
 ---------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 2
+Making move level "easy"
 
 ---------
 
-|   X   |
+| X O X |
 
 | X X   |
 
 | O   O |
 
 ---------
+Making move level "easy"
 
 ---------
 
-|   X   |
+| X O X |
 
 | X X   |
 
@@ -1854,6 +2279,7 @@
 
 ---------
 O wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -1864,83 +2290,207 @@
 |       |
 
 ---------
-Enter the coordinates: > > 3 2
+Making move level "easy"
 
 ---------
 
 |       |
 
 |       |
-
-|   X   |
-
----------
-
----------
-
-|       |
-
-|     O |
-
-|   X   |
-
----------
-Enter the coordinates: > > 1 1
-
----------
 
 | X     |
 
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
 |     O |
-
-|   X   |
-
----------
-
----------
 
 | X     |
 
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
 |     O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
 
 | O X   |
 
----------
-Enter the coordinates: > > 2 2
-
----------
+|     O |
 
 | X     |
 
-|   X O |
+---------
+Making move level "easy"
+
+---------
 
 | O X   |
 
----------
-
----------
+| X   O |
 
 | X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+| X   O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+| X X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X O O |
+
+| X X O |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X   O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X O O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X O O |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
 
 | O X O |
 
-| O X   |
+| X O O |
+
+| X   X |
 
 ---------
-Enter the coordinates: > > 3 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
+Making move level "easy"
 
 ---------
-
-| X     |
 
 | O X O |
 
-| O X X |
+| X O O |
+
+| X X X |
 
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -1951,136 +2501,51 @@
 |       |
 
 ---------
-Enter the coordinates: > > 2 2
-
----------
-
-|       |
-
-|   X   |
-
-|       |
-
----------
-
----------
-
-|       |
-
-|   X O |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|       |
-
-|   X O |
-
-|     X |
-
----------
-
----------
-
-|       |
-
-|   X O |
-
-|   O X |
-
----------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
 
 |     X |
 
-|   X O |
+|       |
 
-|   O X |
+|       |
 
 ---------
+Making move level "easy"
 
 ---------
 
 |     X |
 
-| O X O |
+|       |
 
-|   O X |
+|   O   |
 
 ---------
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
 
 | X   X |
 
-| O X O |
-
-|   O X |
-
----------
-X wins
-
----------
-
 |       |
 
-|       |
-
-|       |
+|   O   |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
 
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|       |
-
-| O     |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X X |
-
-|       |
-
-| O     |
-
----------
-
----------
-
-|   X X |
+| X   X |
 
 |       |
 
 | O O   |
 
 ---------
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
 
@@ -2092,6 +2557,7 @@
 
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -2102,7 +2568,7 @@
 |       |
 
 ---------
-Enter the coordinates: > > 3 3
+Making move level "easy"
 
 ---------
 
@@ -2113,17 +2579,519 @@
 |     X |
 
 ---------
+Making move level "easy"
 
 ---------
+
+|       |
+
+|   O   |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   O   |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|   O   |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X O   |
+
+| X   X |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X O   |
+
+| X O X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   X O |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|   X O |
+
+|   O X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|       |
+
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
 
 | O     |
 
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X   |
+
+| O     |
+
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| O     |
+
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| O   X |
+
+| O   X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X X O |
+
+| O O X |
+
+| O   X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
 |       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+| X     |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+| X X   |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+| X X   |
+
+|   O O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+| X X   |
+
+| X O O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   X |
+
+| O X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O X O |
 
 |     X |
 
 ---------
-Enter the coordinates: > > 2 1
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X X |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|   X X |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|   X X |
+
+| O     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|   X X |
+
+| O   O |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+| X X X |
+
+| O   O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
 
 ---------
 
@@ -2131,77 +3099,778 @@
 
 | X     |
 
-|     X |
+|       |
 
 ---------
-
----------
-
-| O     |
-
-| X   O |
-
-|     X |
-
----------
-Enter the coordinates: > > 2 2
+Making move level "easy"
 
 ---------
 
 | O     |
 
-| X X O |
+| X   X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O     |
+
+| X O X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X O X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X O X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| X O X |
 
 |     X |
 
 ---------
+Making move level "easy"
 
 ---------
 
-| O O   |
+| O X O |
 
-| X X O |
-
-|     X |
-
----------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 3
-
----------
-
-| O O X |
-
-| X X O |
-
-|     X |
-
----------
-
----------
-
-| O O X |
-
-| X X O |
+| X O X |
 
 | O   X |
 
 ---------
-Enter the coordinates: > > 3 2
+O wins
+#Input command: > > start easy easy
 
 ---------
 
-| O O X |
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| O X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+| O X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X   |
+
+| O X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X X |
+
+| O X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X X |
+
+| O X O |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X X X |
+
+| O X O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|       |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|     X |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|     X |
+
+|   O O |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|   X X |
+
+|   O O |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|   X X |
+
+| O O O |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   X |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   X |
+
+|     O |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   X |
+
+| X   O |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| X   O |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| X   O |
+
+| X O   |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|     O |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O X |
+
+|   X O |
+
+| X     |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|   X   |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+|   X   |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   O |
+
+|   X X |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O O |
+
+|   X X |
+
+| X     |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O     |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O     |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O   O |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O X O |
+
+|   X X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X     |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X   X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X O X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+| X O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O O |
+
+| X O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O O |
+
+| X O X |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O O O |
+
+| X O X |
+
+|   X X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|     O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|     O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+|     O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X   O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X   O |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X   O |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| X   O |
+
+| O X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
 
 | X X O |
 
 | O X X |
 
 ---------
-Draw
+X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -2212,78 +3881,255 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
-
-|     X |
 
 |       |
 
-|       |
-
----------
-
----------
-
-|     X |
-
-|     O |
+|   X   |
 
 |       |
 
 ---------
-Enter the coordinates: > > 3 1
+Making move level "easy"
 
 ---------
 
-|     X |
+| O     |
 
-|     O |
+|   X   |
 
-| X     |
+|       |
 
 ---------
+Making move level "easy"
 
 ---------
 
 | O   X |
 
-|     O |
+|   X   |
 
-| X     |
+|       |
 
 ---------
-Enter the coordinates: > > 3 3
+Making move level "easy"
 
 ---------
 
 | O   X |
 
+|   X   |
+
 |     O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+|   X   |
+
+|   X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O   X |
+
+|   X   |
+
+| O X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X X |
+
+|   X   |
+
+| O X O |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X     |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
 
 | X   X |
 
+|     O |
+
+|       |
+
 ---------
+Making move level "easy"
 
 ---------
 
-| O   X |
+| X O X |
+
+|     O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+|   X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O X O |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O X |
+
+| O X O |
+
+|     X |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|       |
+
+| X     |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|       |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|     O |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
+
+|     O |
+
+| X X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X O |
 
 | O   O |
 
-| X   X |
+| X X   |
 
 ---------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
+Making move level "easy"
 
 ---------
 
-| O   X |
+|   X O |
 
 | O   O |
 
@@ -2291,6 +4137,7 @@
 
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -2301,7 +4148,7 @@
 |       |
 
 ---------
-Enter the coordinates: > > 2 1
+Making move level "easy"
 
 ---------
 
@@ -2312,6 +4159,7 @@
 |       |
 
 ---------
+Making move level "easy"
 
 ---------
 
@@ -2322,83 +4170,452 @@
 |     O |
 
 ---------
-Enter the coordinates: > > 3 2
+Making move level "easy"
 
 ---------
 
 |       |
 
-| X     |
+| X   X |
 
-|   X O |
+|     O |
 
 ---------
+Making move level "easy"
 
 ---------
 
 |       |
 
-| X O   |
+| X O X |
+
+|     O |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+| X O X |
 
 |   X O |
 
 ---------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
 
-| X     |
+|       |
 
-| X O   |
-
-|   X O |
-
----------
-
----------
-
-| X     |
-
-| X O O |
-
-|   X O |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| X X   |
-
-| X O O |
-
-|   X O |
-
----------
-
----------
-
-| X X   |
-
-| X O O |
+| X O X |
 
 | O X O |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
+
+|   X   |
+
+| X O X |
+
+| O X O |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+| X O X |
+
+| O X O |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|   X   |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+|   X   |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O X   |
+
+|   O   |
+
+---------
+Making move level "easy"
+
+---------
+
+|     X |
+
+| O X   |
+
+| X O   |
+
+---------
+X wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   X   |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X   |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|       |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|       |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|       |
+
+| O X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+|     X |
+
+| O X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| O X O |
+
+| O   X |
+
+| O X X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|       |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+|       |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X     |
+
+|     X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X     |
+
+|   O X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X   X |
+
+|   O X |
+
+---------
+Making move level "easy"
+
+---------
+
+|     O |
+
+| X   X |
+
+| O O X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X   X |
+
+| O O X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X   O |
+
+| X O X |
+
+| O O X |
+
+---------
+O wins
+#Input command: > > start easy easy
+
+---------
+
+|       |
+
+|       |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|       |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|     X |
+
+|       |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|     X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+|   O   |
+
+|   O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+|   O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O O X |
+
+|   X   |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O   |
+
+| O O X |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| O O X |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
+
+| X O O |
+
+| O O X |
 
 | X X X |
 
-| X O O |
-
-| O X O |
-
 ---------
 X wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -2409,1455 +4626,96 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 2
+Making move level "easy"
 
 ---------
-
-|   X   |
 
 |       |
 
 |       |
 
----------
+|     X |
 
 ---------
+Making move level "easy"
 
-|   X   |
-
-|       |
+---------
 
 |     O |
 
----------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-
----------
-
-|   X   |
-
 |       |
 
-|   X O |
+|     X |
 
 ---------
+Making move level "easy"
 
 ---------
-
-|   X O |
-
-|       |
-
-|   X O |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|   X O |
-
-|   X   |
-
-|   X O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|       |
 
 |     O |
 
-|   X   |
+|       |
+
+|   X X |
 
 ---------
-Enter the coordinates: > > 1 1
+Making move level "easy"
 
 ---------
-
-| X     |
 
 |     O |
 
-|   X   |
+|     O |
+
+|   X X |
+
+---------
+Making move level "easy"
 
 ---------
 
----------
+|     O |
 
-| X     |
+|   X O |
+
+|   X X |
+
+---------
+Making move level "easy"
+
+---------
 
 | O   O |
 
-|   X   |
+|   X O |
+
+|   X X |
 
 ---------
-Enter the coordinates: > > 1 2
+Making move level "easy"
 
 ---------
-
-| X X   |
 
 | O   O |
-
-|   X   |
-
----------
-
----------
 
 | X X O |
 
-| O   O |
-
-|   X   |
-
----------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 1
-
----------
-
-| X X O |
-
-| O   O |
-
-| X X   |
-
----------
-
----------
-
-| X X O |
-
-| O O O |
-
-| X X   |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|   X   |
-
-|       |
-
-|     O |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X X   |
-
-|       |
-
-|     O |
-
----------
-
----------
-
-| X X   |
-
-|   O   |
-
-|     O |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| X X   |
-
-| X O   |
-
-|     O |
-
----------
-
----------
-
-| X X   |
-
-| X O   |
-
-| O   O |
-
----------
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-
----------
-
-| X X   |
-
-| X O X |
-
-| O   O |
-
----------
-
----------
-
-| X X   |
-
-| X O X |
-
-| O O O |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-| O     |
-
-|       |
-
-|   X   |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| O X   |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-| O X O |
-
-|       |
-
-|   X   |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-| O X O |
-
-|       |
-
 |   X X |
 
 ---------
-
----------
-
-| O X O |
-
-|       |
-
-| O X X |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| O X O |
-
-| X     |
-
-| O X X |
-
----------
-
----------
-
-| O X O |
-
-| X O   |
-
-| O X X |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|   X   |
-
-|   O   |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X X   |
-
-|   O   |
-
-|       |
-
----------
-
----------
-
-| X X   |
-
-|   O   |
-
-|     O |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| X X   |
-
-|   O   |
-
-| X   O |
-
----------
-
----------
-
-| X X   |
-
-|   O O |
-
-| X   O |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| X X X |
-
-|   O O |
-
-| X   O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|       |
-
-|       |
-
-| O X   |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|       |
-
-| O X   |
-
----------
-
----------
-
-| X     |
-
-|   O   |
-
-| O X   |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 2
-
----------
-
-| X X   |
-
-|   O   |
-
-| O X   |
-
----------
-
----------
-
-| X X   |
-
-| O O   |
-
-| O X   |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-| X X   |
-
-| O O   |
-
-| O X X |
-
----------
-
----------
-
-| X X   |
-
-| O O O |
-
-| O X X |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|   O X |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|   O X |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|   O X |
-
-| O     |
-
-|   X   |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|   O X |
-
-| O     |
-
-|   X X |
-
----------
-
----------
-
-|   O X |
-
-| O O   |
-
-|   X X |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-|   O X |
-
-| O O X |
-
-|   X X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|       |
-
-|   X   |
-
-|       |
-
----------
-
----------
-
-|       |
-
-|   X   |
-
-|     O |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-|       |
-
-|   X X |
-
-|     O |
-
----------
-
----------
-
-|     O |
-
-|   X X |
-
-|     O |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X O |
-
-|   X X |
-
-|     O |
-
----------
-
----------
-
-|   X O |
-
-|   X X |
-
-| O   O |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|   X O |
-
-|   X X |
-
-| O X O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| X     |
-
-|       |
-
-| O     |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| X   X |
-
-|       |
-
-| O     |
-
----------
-
----------
-
-| X   X |
-
-|   O   |
-
-| O     |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| X X X |
-
-|   O   |
-
-| O     |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|       |
-
-|       |
-
-|     X |
-
----------
-
----------
-
-|       |
-
-|   O   |
-
-|     X |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-|       |
-
-|   O X |
-
-|     X |
-
----------
-
----------
-
-|       |
-
-| O O X |
-
-|     X |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-| O O X |
-
-|     X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|     O |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|     X |
-
-|     O |
-
-|     X |
-
----------
-
----------
-
-|     X |
-
-|   O O |
-
-|     X |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-
----------
-
-|     X |
-
-|   O O |
-
-|   X X |
-
----------
-
----------
-
-|     X |
-
-|   O O |
-
-| O X X |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X X |
-
-|   O O |
-
-| O X X |
-
----------
-
----------
-
-| O X X |
-
-|   O O |
-
-| O X X |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| O X X |
-
-| X O O |
-
-| O X X |
-
----------
-Draw
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-|       |
-
-|     X |
-
-|       |
-
----------
-
----------
-
-|       |
-
-|     X |
-
-| O     |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X   X |
-
-| O     |
-
----------
-
----------
-
-|     O |
-
-| X   X |
-
-| O     |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|     O |
-
-| X   X |
-
-| O X   |
-
----------
-
----------
-
-|     O |
-
-| X O X |
-
-| O X   |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|       |
-
-|     O |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|     X |
-
-| X     |
-
-|     O |
-
----------
-
----------
-
-| O   X |
-
-| X     |
-
-|     O |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| O   X |
-
-| X   X |
-
-|     O |
-
----------
-
----------
-
-| O O X |
-
-| X   X |
-
-|     O |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| O O X |
-
-| X   X |
-
-| X   O |
-
----------
-
----------
-
-| O O X |
-
-| X O X |
-
-| X   O |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|       |
-
-|       |
-
-|     X |
-
----------
-
----------
-
-|       |
-
-|       |
-
-| O   X |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|       |
-
-| O   X |
-
----------
-
----------
-
-| X     |
-
-|       |
-
-| O O X |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| X   X |
-
-|       |
-
-| O O X |
-
----------
-
----------
-
-| X O X |
-
-|       |
-
-| O O X |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-| X O X |
-
-|   X   |
-
-| O O X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X     |
-
-|       |
-
----------
-
----------
-
-|   O   |
-
-| X     |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|   O   |
-
-| X X   |
-
-|       |
-
----------
-
----------
-
-| O O   |
-
-| X X   |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-| O O   |
-
-| X X   |
-
-|   X   |
-
----------
+Making move level "easy"
 
 ---------
 
 | O O O |
 
-| X X   |
-
-|   X   |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-|       |
-
-| X     |
-
-|       |
-
----------
-
----------
-
-|       |
-
-| X   O |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-| X   O |
-
-|       |
-
----------
-
----------
-
-| X   O |
-
-| X   O |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-| X   O |
-
 | X X O |
-
-|       |
-
----------
-
----------
-
-| X O O |
-
-| X X O |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-
----------
-
-| X O O |
-
-| X X O |
-
-|     X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|   X   |
-
-| O     |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|   X X |
-
-| O     |
-
-|       |
-
----------
-
----------
-
-| O X X |
-
-| O     |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-| O X X |
-
-| O     |
-
-|     X |
-
----------
-
----------
-
-| O X X |
-
-| O O   |
-
-|     X |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-| O X X |
-
-| O O   |
-
-|   X X |
-
----------
-
----------
-
-| O X X |
-
-| O O O |
 
 |   X X |
 
 ---------
 O wins
+#Input command: > > start easy easy
 
 ---------
 
@@ -3868,738 +4726,92 @@
 |       |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|   O   |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-|     X |
-
-|   O   |
 
 | X     |
 
----------
+|       |
+
+|       |
 
 ---------
+Making move level "easy"
 
-| O   X |
-
-|   O   |
+---------
 
 | X     |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-
----------
-
-| O   X |
-
-| X O   |
-
-| X     |
-
----------
-
----------
-
-| O   X |
-
-| X O   |
-
-| X O   |
-
----------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-
----------
-
-| O   X |
-
-| X O   |
-
-| X O X |
-
----------
-
----------
-
-| O   X |
-
-| X O O |
-
-| X O X |
-
----------
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 2
-
----------
-
-| O X X |
-
-| X O O |
-
-| X O X |
-
----------
-Draw
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-|     X |
-
-|   O   |
-
-|       |
-
----------
-Enter the coordinates: > > 3 3
-
----------
-
-|     X |
-
-|   O   |
-
-|     X |
-
----------
-
----------
-
-| O   X |
-
-|   O   |
-
-|     X |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-| O X X |
-
-|   O   |
-
-|     X |
-
----------
-
----------
-
-| O X X |
-
-| O O   |
-
-|     X |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 3
-
----------
-
-| O X X |
-
-| O O X |
-
-|     X |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
-
-|   X   |
-
----------
-
----------
-
-|       |
-
-|       |
-
-|   X O |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|   X O |
-
----------
-
----------
-
-| O X   |
-
-|       |
-
-|   X O |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-| O X   |
-
-|   X   |
-
-|   X O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 2
-
----------
-
-|   X   |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| O X   |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| O X   |
-
-|       |
-
-| X     |
-
----------
-
----------
-
-| O X   |
-
-|       |
-
-| X   O |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-| O X   |
-
-|       |
-
-| X X O |
-
----------
-
----------
-
-| O X   |
 
 |     O |
 
-| X X O |
+|       |
 
 ---------
-Enter the coordinates: > > 1 3
+Making move level "easy"
 
 ---------
 
-| O X X |
+| X     |
 
 |     O |
 
-| X X O |
-
----------
-
----------
-
-| O X X |
-
-| O   O |
-
-| X X O |
-
----------
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 2
-
----------
-
-| O X X |
-
-| O X O |
-
-| X X O |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-|     X |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| O   X |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-| O   X |
-
 |   X   |
 
-|       |
+---------
+Making move level "easy"
 
 ---------
 
----------
+| X O   |
 
-| O O X |
-
-|   X   |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| O O X |
-
-|   X   |
-
-| X     |
-
----------
-X wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 3 2
-
----------
-
-|       |
-
-|       |
+|     O |
 
 |   X   |
 
 ---------
+Making move level "easy"
 
 ---------
 
-|       |
+| X O   |
 
-|   O   |
-
-|   X   |
-
----------
-Enter the coordinates: > > 2 2
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|   O   |
-
-|   X   |
-
----------
-
----------
-
-| X     |
-
-|   O   |
-
-| O X   |
-
----------
-Enter the coordinates: > > 2 3
-
----------
-
-| X     |
-
-|   O X |
-
-| O X   |
-
----------
-
----------
-
-| X     |
-
-|   O X |
-
-| O X O |
-
----------
-Enter the coordinates: > > 2 1
-
----------
-
-| X     |
-
-| X O X |
-
-| O X O |
-
----------
-
----------
-
-| X   O |
-
-| X O X |
-
-| O X O |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-
----------
-
-| X     |
-
-|       |
-
-|       |
-
----------
-
----------
-
-| X     |
-
-| O     |
-
-|       |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| X     |
-
-| O     |
-
-| X     |
-
----------
-
----------
-
-| X     |
-
-| O   O |
-
-| X     |
-
----------
-Enter the coordinates: > > 1 2
-
----------
+|     O |
 
 | X X   |
 
-| O   O |
-
-| X     |
+---------
+Making move level "easy"
 
 ---------
 
----------
+| X O O |
+
+|     O |
 
 | X X   |
 
-| O   O |
-
-| X   O |
-
 ---------
-Enter the coordinates: > > 3 2
+Making move level "easy"
 
 ---------
 
-| X X   |
-
-| O   O |
-
-| X X O |
-
----------
-
----------
-
-| X X O |
-
-| O   O |
-
-| X X O |
-
----------
-O wins
-
----------
-
-|       |
-
-|       |
-
-|       |
-
----------
-Enter the coordinates: > > 2 2
-
----------
-
-|       |
-
-|   X   |
-
-|       |
-
----------
-
----------
-
-| O     |
-
-|   X   |
-
-|       |
-
----------
-Enter the coordinates: > > 1 3
-
----------
-
-| O   X |
-
-|   X   |
-
-|       |
-
----------
-
----------
-
-| O O X |
-
-|   X   |
-
-|       |
-
----------
-Enter the coordinates: > > 1 1
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 3 3
-
----------
-
-| O O X |
-
-|   X   |
-
-|     X |
-
----------
-
----------
-
-| O O X |
+| X O O |
 
 |   X O |
 
-|     X |
+| X X   |
 
 ---------
-Enter the coordinates: > > 2 3
-+This cell is occupied! Choose another one!
-Enter the coordinates: > > 2 1
+Making move level "easy"
 
 ---------
 
-| O O X |
+| X O O |
+
+|   X O |
 
 | X X O |
 
-|     X |
-
 ---------
-
----------
-
-| O O X |
-
-| X X O |
-
-|   O X |
-
----------
-Enter the coordinates: > > 3 1
-
----------
-
-| O O X |
-
-| X X O |
-
-| X O X |
-
----------
-X wins
+O wins

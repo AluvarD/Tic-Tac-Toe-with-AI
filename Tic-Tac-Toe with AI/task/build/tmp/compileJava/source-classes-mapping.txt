@@ -1,2 +1,12 @@
+tictactoe/GameProgress.java
+ tictactoe.GameProgress
+tictactoe/Ai.java
+ tictactoe.Ai
+tictactoe/GameChecks.java
+ tictactoe.GameChecks
+tictactoe/Table.java
+ tictactoe.Table
 tictactoe/Main.java
  tictactoe.Main
+tictactoe/GameMode.java
+ tictactoe.GameMode

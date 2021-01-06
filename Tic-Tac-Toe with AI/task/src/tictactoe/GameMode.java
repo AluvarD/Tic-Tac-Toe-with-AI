@@ -15,11 +15,27 @@ public class GameMode {
             switch (input) {
                 case "start easy easy":
                     checkInput = true;
-                    mode = "aiVAiEasy";
+                    mode = "aiVsAiEasy";
                     break;
                 case "start easy user":
                     checkInput = true;
-                    mode = "aiVUserEasy";
+                    mode = "aiVsUserEasy";
+                    break;
+                case "start user easy":
+                    checkInput = true;
+                    mode = "userVsAiEasy";
+                    break;
+                case "start user medium":
+                    checkInput = true;
+                    mode = "userVsAiMedium";
+                    break;
+                case "star medium user":
+                    checkInput = true;
+                    mode = "aiVsUserMedium";
+                    break;
+                case "start medium medium":
+                    checkInput = true;
+                    mode = "aiVsAiMedium";
                     break;
                 case "start user user":
                     checkInput = true;

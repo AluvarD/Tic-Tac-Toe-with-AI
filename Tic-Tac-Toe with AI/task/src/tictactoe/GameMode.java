@@ -37,6 +37,22 @@ public class GameMode {
                     checkInput = true;
                     mode = "aiVsAiMedium";
                     break;
+                case "start user hard":
+                    checkInput = true;
+                    mode = "userVsAiHard";
+                    break;
+                case "start hard user":
+                    checkInput = true;
+                    mode = "aiHardVsUser";
+                    break;
+                case "start hard hard":
+                    checkInput = true;
+                    mode = "aiVsAiHard";
+                    break;
+                case "start hard medium":
+                    checkInput = true;
+                    mode = "aiHardVsAiMedium";
+                    break;
                 case "start user user":
                     checkInput = true;
                     mode = "pVp";

@@ -52,4 +52,22 @@ public class Table {
             table[x - 1][y - 1] = 'O';
         }
     }
+
+    public static String saveTable (char[][] table) {
+        StringBuilder saveLine = new StringBuilder();
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (table[i][j] == 'X') {
+                    saveLine.append("X");
+                } else if (table[i][j] == 'O') {
+                    saveLine.append("O");
+                } else {
+                    saveLine.append("_");
+                }
+            }
+        }
+
+        return String.valueOf(saveLine);
+    }
 }

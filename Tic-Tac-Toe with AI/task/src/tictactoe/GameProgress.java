@@ -7,6 +7,7 @@ public class GameProgress {
     public static void game (String mode) {
         char[][] table = new char[3][3];
         String startLine = "_________";
+        //String startLine = "XOX_OXOXO";
 
         Table.tableInit(table, startLine);
         Table.printTable(table);
@@ -91,6 +92,24 @@ public class GameProgress {
                     input = scanner.nextLine();
                 }
                 break;
+            case "userVsAiHard":
+                if (move == 0) {
+                    System.out.print("Enter the coordinates: > ");
+                    input = scanner.nextLine();
+                } else if (move == 1) {
+                    System.out.print("Making move level \"hard\"\n");
+                    input = Ai.generateCoordinatesAiHard(table, 'O');
+                }
+                break;
+            case "aiHardVsUser":
+                if (move == 0) {
+                    System.out.print("Making move level \"hard\"\n");
+                    input = Ai.generateCoordinatesAiHard(table, 'X');
+                } else if (move == 1) {
+                    System.out.print("Enter the coordinates: > ");
+                    input = scanner.nextLine();
+                }
+                break;
             case "aiVsAiEasy":
                 if (move == 0) {
                     System.out.print("Making move level \"easy\"\n");
@@ -104,6 +123,24 @@ public class GameProgress {
                 if (move == 0) {
                     System.out.print("Making move level \"medium\"\n");
                     input = Ai.generateCoordinatesAiMedium(table);
+                } else if (move == 1) {
+                    System.out.print("Making move level \"medium\"\n");
+                    input = Ai.generateCoordinatesAiMedium(table);
+                }
+                break;
+            case "aiVsAiHard":
+                if (move == 0) {
+                    System.out.print("Making move level \"hard\"\n");
+                    input = Ai.generateCoordinatesAiHard(table, 'X');
+                } else if (move == 1) {
+                    System.out.print("Making move level \"hard\"\n");
+                    input = Ai.generateCoordinatesAiHard(table, 'O');
+                }
+                break;
+            case "aiHardVsAiMedium":
+                if (move == 0) {
+                    System.out.print("Making move level \"hard\"\n");
+                    input = Ai.generateCoordinatesAiHard(table, 'X');
                 } else if (move == 1) {
                     System.out.print("Making move level \"medium\"\n");
                     input = Ai.generateCoordinatesAiMedium(table);
